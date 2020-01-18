@@ -1,6 +1,6 @@
 # PHP-Framework
 
-### PHP Framework Core
+### PHP Framework
 
 
 #### Installation
