@@ -2,14 +2,11 @@
 
 namespace Framework\Events;
 
-use Framework\Helpers\Auth;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Contracts\EventDispatcher\Event;
 
 class BeforeMiddlewareEvent extends Event
 {
-    use Auth;
-
     public const EVENT_FRAMEWORK_BEFORE_REQUEST = 'framework.before.request';
 
     private $request;
