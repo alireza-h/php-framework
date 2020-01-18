@@ -2,7 +2,7 @@
 
 namespace Framework\Lib;
 
-final class Config
+class Config
 {
     private $configFilesDirectoryPath;
     private $configs = [];
